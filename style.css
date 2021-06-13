@@ -1,17 +1,21 @@
-body{ height: 2000px; background-color: #171a21;}
+body{ height: 2000px; background-color: #171a21; width: auto;}
 
 .header{
     border-radius: 8px; background-color: rgb(72 31 138);
-    width: 900px; height: 35px;
-    display: flex; justify-content: space-evenly; margin: 0 auto;
+    width: 900px; height: 42px;
+    display: flex; justify-content: center;
+    align-items: center; margin: 0 auto;
     position: fixed;  top:5px;left: 0; right: 0; opacity: 0.75; transition:opacity 0.5s;}
     .header:hover{color: white; opacity: 1;}
+/*
+.logo_img {object-fit: cover; width: 50px; height: 50px; vertical-align: middle;}
+.logo_name{	text-align: center; position: absolute; top: 83%; left: 21%; transform: translate( -50%, -50% ); font-size: 8px; color: white;}
+*/
 
-#logo{font-size: 15px; }
-.menus_link{ text-decoration: none; color: #f1f0ef; font-weight: bold ; font-size: 25px; padding: 0px 25px 0px 25px;
-    transition: text-shadow 1.5s }
+.menus_link{ text-decoration: none; color: #f1f0ef; font-size: 38px; padding: 0px 35px 0px 35px;
+    transition: text-shadow 1.5s; font-family: 'Bebas Neue', cursive;}
 .menus_link:hover{text-shadow:5px 5px 2px black; transition: text-shadow 0.75s } /*X Y 번짐 크기 색상*/
 
-.main {margin: 0 auto; width: 50px; margin-top: 45px; color: white;}
+.main {margin: 0 auto; width: 50px; margin-top: 80px; color: white;}
 
 
